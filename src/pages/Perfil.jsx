@@ -203,7 +203,7 @@ useEffect ( async () =>{
     <>
       <div className="container-perfil-header">
           <div className="perfil-header">
-                <h1 className="h1-perfil-header"> Mi Perfil</h1>
+                <h1 className="title-perfil-header"> Mi Perfil</h1>
              </div>
        </div>
        <div className="container">

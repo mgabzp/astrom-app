@@ -19,24 +19,32 @@
     text-align: center;
     font-size: 40px;
     color: #f2f2f2;
-    margin: auto auto;
+    margin: 120px 170px;
     position: absolute;
-}
-@media screen and (max-width: 1024px) {
-    .title_header-nosotros{
-        margin: auto 40px;
-    } 
 }
 
 @media screen and (max-width: 920px) {
     .title_header-nosotros{
-        margin: auto 40px;
+        margin: 110px 150px;
+    } 
+}
+
+@media screen and (max-width: 780px) {
+    .title_header-nosotros{
+        margin: 90px 30px;
     } 
 }
   
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 520px) {
     .title_header-nosotros{
-        text-align: center;
+        margin: 100px 30px;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title_header-nosotros{
+        margin: 100px 20px;
         font-size: 32px;
     }
 }

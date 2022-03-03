@@ -16,6 +16,13 @@
     
 }
 
+.title-header-licencia{
+  position: absolute;
+  top: 13%;
+  left: 3%;
+  color: white;
+}
+
  
 .btn-delete{
     color: rgb(110, 17, 17) !important;

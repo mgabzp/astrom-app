@@ -115,7 +115,7 @@ const LicenciasTable = () => {
         <div className="position-relative">
             <div className="licencias-header">
                 <div className="line-header"></div>
-                <h1 className="h1-header">Licencias</h1>
+                <h1 className="title-header-licencia">Licencias</h1>
             </div>
                 <div className="overlay-header"></div>
             <div className="button-header d-flex justify-content-between">
