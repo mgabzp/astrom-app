@@ -1,45 +1,63 @@
 import React from "react";
 import "../styles/Footer.css";
-import logo from "../assets/logo.png";
+import {Link} from "react-router-dom";
+// import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
     <>
-      <footer className="main-footer">
-        <div className="container">
-          <div className="row pt-5">
-            <div className="col">
-              <ul className="list-unstyled-icon">
-                <i
-                  className="fa fa-facebook fa-2x text-white mx-2"
-                  aria-hidden="true"
-                ></i>
-                <i
-                  className="fa fa-twitter fa-2x text-white mx-2"
-                  aria-hidden="true"
-                ></i>
-                <i
-                  className="fa fa-instagram fa-2x text-white mx-2"
-                  aria-hidden="true"
-                ></i>
-              </ul>
+      <div className="footer__container">
+        <div className="footer__links">
+          <div className="footer__link--wrapper">
+            <div className="footer__link--items">
+              <h2>About Us</h2>
+              <Link to="/error404">How it works</Link>
+              <Link to="/error404">Testimonials</Link>
+              <Link to="/error404">Careers</Link>
+              <Link to="/error404">Terms of Service</Link>
             </div>
-            <div className="col logo">
-              <img src={logo} width="150px" alt="logo footer" />
-              <p className="col-sm">
-                &copy;{new Date().getFullYear()} Todos los derechos reservados.
-              </p>
+            <div className="footer__link--items">
+              <h2>About Us</h2>
+              <Link to="/error404">How it works</Link>
+              <Link to="/error404">Testimonials</Link>
+              <Link to="/error404">Careers</Link>
+              <Link to="/error404">Terms of Service</Link>
             </div>
-            <div className="col">
-              <ul className="list-unstyled">
-                <li>Telefono 42452364</li>
-                <li>Tucuman,Argentina</li>
-                <li>Av Mitre 222</li>
-              </ul>
+          </div>
+          <div className="footer__link--wrapper">
+            <div className="footer__link--items">
+              <h2>About Us</h2>
+              <Link to="/error404">How it works</Link>
+              <Link to="/error404">Testimonials</Link>
+              <Link to="/error404">Careers</Link>
+              <Link to="/error404">Terms of Service</Link>
+            </div>
+            <div className="footer__link--items">
+              <h2>About Us</h2>
+              <Link to="/error404">How it works</Link>
+              <Link to="/error404">Testimonials</Link>
+              <Link to="/error404">Careers</Link>
+              <Link to="/error404">Terms of Service</Link>
             </div>
           </div>
         </div>
-      </footer>
+        <section className="social__media">
+          <div className="social__media--wrap">
+            <div className="footer__logo">
+              <Link to="/" id="footer__logo">ASTROM</Link>
+              </div>
+              <p className="website__rights">&copy;{new Date().getFullYear()} All rights reserved</p>
+              <div className="social__icons">
+                <Link to="/error404" className="social__icon--link"><i className="fa fa-facebook"></i></Link>
+                <Link to="/error404" className="social__icon--link"><i className="fa fa-instagram"></i></Link>
+                <Link to="/error404" className="social__icon--link"><i className="fa fa-youtube"></i></Link>
+                <Link to="/error404" className="social__icon--link"><i className="fa fa-linkedin"></i></Link>
+                <Link to="/error404" className="social__icon--link"><i className="fa fa-twitter"></i></Link>
+                
+                </div>
+            </div>
+          </section>
+      </div>
     </>
   );
 };
