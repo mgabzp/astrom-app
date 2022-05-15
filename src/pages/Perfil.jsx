@@ -21,7 +21,7 @@ const Perfil = () => {
             });
           };
   const [update, setUpdate] = useState(false);
-  const [image, setImage] = useState('');
+  const [image, setImage] = useState();
   const [show, setShow] = useState(true);
   const [selectedFile, setSelectedFile] = useState();
   const [perfil, setPerfil] = useState({
@@ -33,7 +33,7 @@ const Perfil = () => {
     localidad:"",
     domicilio:"",
     licencia:"",
-    imagen:"",
+    imagen:"https://calm-castle-34951.herokuapp.com/images/default.png", //agregue foto
     dni:"",
     nacimiento:"",
     emergencia:""
@@ -95,7 +95,7 @@ useEffect ( async () =>{
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("submit")
+
     const { telefono, email ,imagen } = perfil;
     const datos = JSON.parse(localStorage.getItem("auth"));
     if ( telefono && email && imagen) {

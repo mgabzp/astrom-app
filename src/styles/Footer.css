@@ -1,5 +1,5 @@
 .footer__container{
-    background-color: #131313;
+    background-color: rgb(33, 33, 33);
     padding: 2rem 0;
     display: flex;
     flex-direction: column;
@@ -84,6 +84,81 @@
 
 .website__rights{
     color: #fff;
+}
+
+/* media icons */
+
+.button {
+	float: left;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background: #fff;
+	overflow: hidden;
+	border-radius: 50px;
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button span {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 50px;
+	margin-left: 10px;
+}
+.button:hover {
+	width: 200px;
+}
+.button:nth-child(3):hover .icon {
+	background: #ec5959;
+}
+.button:nth-child(4):hover .icon {
+	background: #4267b2;
+}
+.button:nth-child(5):hover .icon {
+	background: #1D9BF0;
+}
+.button:nth-child(6):hover .icon {
+	background: #0e76a8;
+}
+.button:nth-child(7):hover .icon {
+	background: #ee0303;
+}
+
+
+.button:nth-child(3) span {
+	color: #ec5959;
+}
+.button:nth-child(4) span {
+	color: #4267b2;
+}
+.button:nth-child(5) span {
+	color: #1D9BF0;
+}
+.button:nth-child(6) span {
+	color: #0e76a8;
+}
+.button:nth-child(7) span {
+	color: #ee0303;
+}
+
+.button .icon {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50px;
+	display: inline-block;
+	transition: all 0.3s ease-in-out;
+}
+
+.button .icon i {
+	font-size: 25px;
+	line-height: 50px;
+	transition: all 0.3s ease-in-out;
+}
+
+.button:hover i {
+	color: #fff;
 }
 
 @media screen and (max-width: 820px){

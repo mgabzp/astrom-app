@@ -29,12 +29,12 @@
 .card-form .imgPerfil {
   border-radius: 100%;
   border: white 1px solid;
-  object-fit: cover center;
   height: auto;
   width: 180px;
   height: 180px;
-  /* display: flex;
-      margin:auto;  */
+}
+.imgPerfil{
+  object-fit: cover;
 }
 .card_perfil .i-pencil {
   color: #4daaa7;
