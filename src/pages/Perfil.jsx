@@ -33,7 +33,7 @@ const Perfil = () => {
     localidad:"",
     domicilio:"",
     licencia:"",
-    imagen:"https://calm-castle-34951.herokuapp.com/images/default.png", //agregue foto
+    imagen:" ", //agregue foto
     dni:"",
     nacimiento:"",
     emergencia:""

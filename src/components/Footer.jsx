@@ -10,34 +10,30 @@ const Footer = () => {
         <div className="footer__links">
           <div className="footer__link--wrapper">
             <div className="footer__link--items">
-              <h2>About Us</h2>
-              <Link to="/error404">How it works</Link>
-              <Link to="/error404">Testimonials</Link>
-              <Link to="/error404">Careers</Link>
-              <Link to="/error404">Terms of Service</Link>
+              <h2>Nosotros</h2>
+              <Link to="/error404">Quiénes somos</Link>
+              <Link to="/error404">Testimonios</Link>
+              <Link to="/error404">Carreras</Link>
             </div>
             <div className="footer__link--items">
-              <h2>About Us</h2>
-              <Link to="/error404">How it works</Link>
-              <Link to="/error404">Testimonials</Link>
-              <Link to="/error404">Careers</Link>
-              <Link to="/error404">Terms of Service</Link>
+              <h2>Recursos</h2>
+              <Link to="/error404">Publicaciones</Link>
+              <Link to="/error404">Webinars</Link>
+              <Link to="/error404">Políticas y prácticas</Link>
             </div>
           </div>
           <div className="footer__link--wrapper">
             <div className="footer__link--items">
-              <h2>About Us</h2>
-              <Link to="/error404">How it works</Link>
-              <Link to="/error404">Testimonials</Link>
-              <Link to="/error404">Careers</Link>
-              <Link to="/error404">Terms of Service</Link>
+              <h2>Carreras</h2>
+              <Link to="/error404">Oportunidades</Link>
+              <Link to="/error404">Experiencia Astrom</Link>
+              <Link to="/error404">Diversidad</Link>
             </div>
             <div className="footer__link--items">
-              <h2>About Us</h2>
-              <Link to="/error404">How it works</Link>
-              <Link to="/error404">Testimonials</Link>
-              <Link to="/error404">Careers</Link>
-              <Link to="/error404">Terms of Service</Link>
+              <h2>Contáctanos</h2>
+              <Link to="/error404">Escríbenos</Link>
+              <Link to="/error404">hi@astrom.com</Link>
+              <Link to="/error404">+1 877 215 5230</Link>
             </div>
           </div>
         </div>
@@ -51,7 +47,10 @@ const Footer = () => {
             <p className="website__rights">
               &copy;{new Date().getFullYear()} Derechos reservados
             </p>
+            </div>
+            </section>
 
+            <div className="social__media--wrap">
             <div className="button">
               <div className="icon">
                 <i className="fa fa-instagram"></i>
@@ -87,9 +86,7 @@ const Footer = () => {
               <span>YouTube</span>
             </div>
           </div>
-        </section>
-
-      </div>
+          </div>
     </>
   );
 };

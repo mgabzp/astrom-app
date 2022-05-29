@@ -30,6 +30,7 @@ const SubscribeForm = () => {
           type="email"
           name="user_email"
           placeholder="Ingresa tu e-mail"
+          required
         />
         <div className="submit-btn">
          <input type="submit"/>

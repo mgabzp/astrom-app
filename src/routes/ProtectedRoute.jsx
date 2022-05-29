@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Route, Redirect, Switch } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 import Error404 from "../pages/Error404";
 
 const ProtectedRoute = ({ component: Component, ...resto }) => {
