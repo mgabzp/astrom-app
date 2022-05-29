@@ -1,5 +1,5 @@
 .container-login-page {
-  background-image: url(https://i.postimg.cc/mkRxVKjN/pexels-johannes-plenio-1632788.jpg);
+  background-image: url(https://i.postimg.cc/xC7Q663B/Home-Carousel-2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -57,7 +57,7 @@
 
 #login_input-dni:hover,
 #login_input-pass:hover{
-  color: #3F8F8B;
+  color: #e5e5e5;
   transition: 0.2s;
   box-shadow: 0px 0px 20px 3px #3F8F8B;
 }
@@ -70,6 +70,12 @@
 #login_input-dni:focus,
 #login_input-pass:focus{
   box-shadow: 0px 0px 20px 3px #3F8F8B;
+}
+.form-control{
+  color: #e5e5e5;
+}
+.form-control:focus{
+  color: #e5e5e5;
 }
 
 .text-inicio-sesion {
@@ -112,10 +118,10 @@
   margin-top: 30px;
   text-align: center;
   font-size: 17px;
-  color: #3F8F8B;
+  color: #e5e5e5;
 }
 .nav-link:hover{
-  color: #e5e5e5;
+  color: #262626;
 }
 
 @media screen and (max-width: 768px) {
