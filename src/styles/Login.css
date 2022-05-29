@@ -47,6 +47,7 @@
   display: block;
   height: 50px;
   width: 100%;
+  color: #e5e5e5;
   background-color: rgba(255, 255, 255, 0.00);
   border-radius: 10px;
   padding: 0 10px;
@@ -69,14 +70,15 @@
 
 #login_input-dni:focus,
 #login_input-pass:focus{
+  color: #e5e5e5;
   box-shadow: 0px 0px 20px 3px #3F8F8B;
 }
-.form-control{
+/* .form-control{
   color: #e5e5e5;
 }
 .form-control:focus{
   color: #e5e5e5;
-}
+} */
 
 .text-inicio-sesion {
   margin-top: 20px;
