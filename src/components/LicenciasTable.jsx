@@ -145,7 +145,7 @@ const LicenciasTable = () => {
                 </div>
             ) : (
 
-                <div className="table-responsive">
+                <div className="table-responsive mb-5">
 
             <table className="table">
                 <thead >

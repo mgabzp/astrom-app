@@ -206,7 +206,7 @@ useEffect ( async () =>{
                 <h1 className="title-perfil-header"> Mi Perfil</h1>
              </div>
        </div>
-       <div className="container">
+       <div className="container mb-5">
         <div className="row mt-4">
           <div className="col-lg-4 col-sm-12-p-relative col-md-6 row-principal id=col-primera">
             <div className="row">
